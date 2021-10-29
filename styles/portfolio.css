@@ -1,0 +1,12 @@
+/* font-family: 'Shadows Into Light', cursive;
+font-family: 'Zen Old Mincho', serif; */
+
+h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+}
+
+p {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 30px;
+}
