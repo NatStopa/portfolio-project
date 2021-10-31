@@ -35,3 +35,16 @@ h2 {
 .hero {
   padding: 50px 60px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .homepage-pictures-section img {
+    margin: 20px 0;
+    max-width: 80%;
+  }
+}
