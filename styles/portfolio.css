@@ -8,6 +8,7 @@ font-family: 'Ubuntu', sans-serif;
   --h2-font-family: "Zen Old Mincho", serif;
   --h1-text-color: #30113e;
   --h2-text-color: #3c154e;
+  --primary-background-color: #79224c;
 }
 
 body {
@@ -24,6 +25,11 @@ h2 {
   color: var(--h2-text-color);
   font-size: 30px;
   font-family: var(--h2-font-family);
+}
+
+.homepage-pictures-section {
+  background-color: var(--primary-background-color);
+  padding: 60px 30px;
 }
 
 .hero {
