@@ -1,12 +1,31 @@
 /* font-family: 'Shadows Into Light', cursive;
-font-family: 'Zen Old Mincho', serif; */
+font-family: 'Zen Old Mincho', serif; 
+font-family: 'Ubuntu', sans-serif;
+*/
 
-h1 {
-  font-family: "Shadows Into Light", cursive;
-  font-size: 60px;
+:root {
+  --h1-font-family: "Ubuntu", sans-serif;
+  --h2-font-family: "Zen Old Mincho", serif;
+  --h1-text-color: #30113e;
+  --h2-text-color: #3c154e;
 }
 
-p {
-  font-family: "Zen Old Mincho", serif;
+body {
+  text-align: center;
+}
+
+h1 {
+  color: var(--h1-text-color);
+  font-size: 96px;
+  font-family: var(--h1-font-family);
+}
+
+h2 {
+  color: var(--h2-text-color);
   font-size: 30px;
+  font-family: var(--h2-font-family);
+}
+
+.hero {
+  padding: 50px 60px;
 }
