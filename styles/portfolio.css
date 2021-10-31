@@ -38,10 +38,11 @@ h2 {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 60px;
+    font-size: 45px;
   }
   h2 {
     font-size: 25px;
+    line-height: 1.5;
   }
   .homepage-pictures-section img {
     margin: 20px 0;
