@@ -4,24 +4,41 @@ font-family: 'Ubuntu', sans-serif;
 */
 
 :root {
-  --h1-font-family: "Ubuntu", sans-serif;
+  --h1-font-family: "Shadows Into Light", cursive;
   --h2-font-family: "Zen Old Mincho", serif;
+  --p-font-family: "Ubuntu", sans-serif;
   --h1-text-color: #30113e;
   --h2-text-color: #3c154e;
+  --p-text-color: #79224c;
   --primary-background-color: #79224c;
+  --secondary-background-color: #b1e4df;
 }
 
-body {
-  text-align: center;
-}
-
-h1 {
+.about-section h1 {
   color: var(--h1-text-color);
+  font-family: "Shadows Into Light", cursive;
   font-size: 96px;
+}
+
+.about-section h2 {
+  color: var(--h2-text-color);
+  font-size: 20px;
+  font-family: var(--h2-font-family);
+}
+
+.about-section p {
+  color: var(--p-text-color);
+  font-family: var(--p-font-family);
+  padding-right: 60px;
+}
+
+.hero h1 {
+  color: var(--h1-text-color);
+  font-size: 130px;
   font-family: var(--h1-font-family);
 }
 
-h2 {
+.hero h2 {
   color: var(--h2-text-color);
   font-size: 30px;
   font-family: var(--h2-font-family);
@@ -34,6 +51,19 @@ h2 {
 
 .hero {
   padding: 50px 60px;
+  text-align: center;
+}
+
+.logo-section {
+  background-color: var(--secondary-background-color);
+  color: var(--h1-text-color);
+  font-family: var(--p-font-family);
+  padding: 30px 100px;
+  text-align: center;
+}
+
+.nat-photo {
+  padding: 60px;
 }
 
 @media (max-width: 576px) {
@@ -44,11 +74,23 @@ h2 {
     font-size: 23px;
     line-height: 1.5;
   }
+  .about-section {
+    padding: 60px;
+  }
   .hero {
     padding: 50px 5px;
   }
   .homepage-pictures-section img {
     margin: 20px 0;
     max-width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-section h1 {
+    font-size: 70px;
+  }
+  .nat-photo {
+    padding: 150px 40px;
   }
 }
