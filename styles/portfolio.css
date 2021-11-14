@@ -10,26 +10,28 @@ font-family: 'Ubuntu', sans-serif;
   --h1-text-color: #30113e;
   --h2-text-color: #3c154e;
   --p-text-color: #79224c;
-  --primary-background-color: #79224c;
-  --secondary-background-color: #b1e4df;
+  --primary-background-color: #b1e4df;
 }
 
-.about-section h1 {
+.about-section h1,
+.work-section h1 {
   color: var(--h1-text-color);
   font-family: "Shadows Into Light", cursive;
   font-size: 96px;
-  padding-top: 80px;
 }
 
-.about-section h2 {
+.about-section h2,
+.work-section h2 {
   color: var(--h2-text-color);
-  font-size: 20px;
+  font-size: 35px;
   font-family: var(--h2-font-family);
 }
 
-.about-section p {
+.about-section p,
+.work-section p {
   color: var(--p-text-color);
   font-family: var(--p-font-family);
+  font-size: 20px;
   padding-right: 60px;
 }
 
@@ -41,7 +43,7 @@ font-family: 'Ubuntu', sans-serif;
 
 .hero h2 {
   color: var(--h2-text-color);
-  font-size: 30px;
+  font-size: 35px;
   font-family: var(--h2-font-family);
 }
 
@@ -56,7 +58,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .logo-section {
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
   color: var(--h1-text-color);
   font-family: var(--p-font-family);
   padding: 30px 100px;
@@ -67,11 +69,37 @@ font-family: 'Ubuntu', sans-serif;
   padding: 60px;
 }
 
+.project-button {
+  background-color: #3c154e;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #ffff;
+  font-family: var(--p-font-family);
+}
+
+.project-button:hover {
+  background-color: #ca387e;
+  color: #ffff;
+  transition: ease-in-out 2s;
+}
+
+.project-description {
+  padding: 35px;
+}
+
+.work-container {
+  background-color: var(--primary-background-color);
+}
+
+.work-section img {
+  margin: 15px;
+}
+
 @media (max-width: 1024px) {
   .about-section {
     padding: 60px;
   }
-  .about-section h1 {
+  .about-section h1,
+  .work-section h1 {
     font-size: 50px;
     padding: 0;
   }
