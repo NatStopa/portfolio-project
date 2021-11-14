@@ -13,6 +13,10 @@ font-family: 'Ubuntu', sans-serif;
   --primary-background-color: #b1e4df;
 }
 
+.about-description {
+  padding: 60px;
+}
+
 .about-section h1,
 .work-section h1 {
   color: var(--h1-text-color);
@@ -32,7 +36,6 @@ font-family: 'Ubuntu', sans-serif;
   color: var(--p-text-color);
   font-family: var(--p-font-family);
   font-size: 20px;
-  padding-right: 60px;
 }
 
 .hero h1 {
@@ -90,25 +93,34 @@ font-family: 'Ubuntu', sans-serif;
   background-color: var(--primary-background-color);
 }
 
+.work-section hr {
+  color: #30113e;
+  opacity: 60%;
+}
+
 .work-section img {
   margin: 15px;
 }
 
 @media (max-width: 1024px) {
-  .about-section {
-    padding: 60px;
+  .about-description {
+    padding: 10px;
+  }
+  .about-section,
+  .work-container {
+    padding: 30px;
   }
   .about-section h1,
   .work-section h1 {
     font-size: 50px;
     padding: 0;
   }
-  .about-section img {
-    display: block;
-    margin: 50px auto;
+  .about-section img,
+  .work-section img {
+    margin: 20px auto;
   }
   .about-section p {
-    padding-right: 20px;
+    padding-right: 10px;
   }
   .hero {
     padding: 50px 5px;
