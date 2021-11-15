@@ -67,6 +67,7 @@ body {
   background-color: var(--primary-background-color);
   color: var(--h1-text-color);
   font-family: var(--p-font-family);
+  font-size: 20px;
   padding: 30px 100px;
   text-align: center;
 }
@@ -80,6 +81,7 @@ body {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   color: #ffff;
   font-family: var(--p-font-family);
+  margin-bottom: 15px;
 }
 
 .project-button:hover {
@@ -147,7 +149,8 @@ body {
     width: 90%;
   }
   .logo-section {
-    padding: 30px 40px;
+    font-size: 16px;
+    padding: 30px 15px;
   }
   .project-button {
     width: 80%;
