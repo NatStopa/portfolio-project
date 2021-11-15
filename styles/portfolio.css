@@ -21,14 +21,16 @@ body {
 }
 
 .about-section h1,
-.work-section h1 {
+.work-section h1,
+.contact-section h1 {
   color: var(--h1-text-color);
   font-family: var(--h1-font-family);
   font-size: 96px;
 }
 
 .about-section h2,
-.work-section h2 {
+.work-section h2,
+.contact-section h2 {
   color: var(--h2-text-color);
   font-size: 35px;
   font-family: var(--main-font-family);
@@ -37,6 +39,26 @@ body {
 .about-section p,
 .work-section p {
   color: var(--p-text-color);
+  font-family: var(--main-font-family);
+  font-size: 20px;
+}
+
+.mail-link a {
+  color: #ca387e;
+  font-family: var(--main-font-family);
+  font-size: 25px;
+}
+
+.mail-link a:hover {
+  color: var(--p-text-color);
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section p {
+  color: var(--h1-text-color);
   font-family: var(--main-font-family);
   font-size: 20px;
 }
@@ -72,8 +94,18 @@ body {
   text-align: center;
 }
 
+.mail-link {
+  background-color: var(--primary-background-color);
+  padding: 50px 0;
+}
+
 .nat-photo {
   padding: 60px;
+}
+
+.profiles {
+  margin: 0 auto;
+  width: 300px;
 }
 
 .project-button {
@@ -121,12 +153,14 @@ body {
     text-align: center;
   }
   .about-section h1,
-  .work-section h1 {
+  .work-section h1,
+  .contact-section h1 {
     font-size: 45px;
     padding: 0;
   }
   .about-section h2,
-  .work-section h2 {
+  .work-section h2,
+  .contact-section h2 {
     font-size: 25px;
   }
   .about-section img,
@@ -151,6 +185,9 @@ body {
   .logo-section {
     font-size: 16px;
     padding: 30px 15px;
+  }
+  .mail-link a {
+    font-size: 20px;
   }
   .project-button {
     width: 80%;
