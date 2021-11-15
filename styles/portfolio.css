@@ -12,6 +12,10 @@ font-family: 'Ubuntu', sans-serif;
   --primary-background-color: #b1e4df;
 }
 
+body {
+  line-height: 1.5;
+}
+
 .about-description {
   padding: 60px;
 }
@@ -116,8 +120,12 @@ font-family: 'Ubuntu', sans-serif;
   }
   .about-section h1,
   .work-section h1 {
-    font-size: 50px;
+    font-size: 45px;
     padding: 0;
+  }
+  .about-section h2,
+  .work-section h2 {
+    font-size: 25px;
   }
   .about-section img,
   .work-section img {
