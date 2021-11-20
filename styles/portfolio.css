@@ -31,6 +31,7 @@ footer a:hover {
 
 .about-description {
   padding: 60px;
+  padding-right: 0;
 }
 
 .about-section h1,
@@ -118,7 +119,9 @@ footer a:hover {
 }
 
 .nat-photo {
-  padding: 60px;
+  display: block;
+  margin: 80px auto;
+  max-width: 300px;
 }
 
 .nav-item .active {
@@ -231,7 +234,7 @@ footer a:hover {
   .nat-photo {
     display: block;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 80%;
     padding: 0;
   }
 }
