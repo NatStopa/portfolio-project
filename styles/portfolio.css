@@ -4,7 +4,7 @@
   --h1-text-color: #30113e;
   --h2-text-color: #3c154e;
   --p-text-color: #79224c;
-  --primary-background-color: #b1e4df;
+  --primary-background-color: #b4e9e4;
   --secondary-background-color: #f5e3fa;
   --link-color: #da0a6e;
 }
@@ -161,7 +161,7 @@ footer a:hover {
 
 .work-container {
   background-color: var(--primary-background-color);
-  margin: 60px 0;
+  margin: 60px 0 0 0;
   padding: 40px 0;
 }
 
