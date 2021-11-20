@@ -5,10 +5,27 @@
   --h2-text-color: #3c154e;
   --p-text-color: #79224c;
   --primary-background-color: #b1e4df;
+  --secondary-background-color: #f5e3fa;
+  --link-color: #da0a6e;
 }
 
 body {
   line-height: 1.5;
+}
+
+footer a {
+  background-color: #30113e;
+  color: #ffff;
+  display: flex;
+  font-family: var(--h1-font-family);
+  font-size: 25px;
+  justify-content: center;
+  letter-spacing: 2px;
+  padding: 30px 0;
+}
+
+footer a:hover {
+  color: var(--p-text-color);
 }
 
 .about-description {
@@ -39,7 +56,7 @@ body {
 }
 
 .bg-white {
-  background-color: #f5e3fa !important;
+  background-color: var(--secondary-background-color) !important;
 }
 
 .contact-section {
@@ -89,7 +106,7 @@ body {
 }
 
 .mail-link a {
-  color: #ca387e;
+  color: var(--link-color);
   font-family: var(--main-font-family);
   font-size: 25px;
 }
@@ -103,7 +120,7 @@ body {
 }
 
 .nav-item .active {
-  color: #ca387e !important;
+  color: var(--link-color) !important;
 }
 
 .nav-link {
@@ -130,7 +147,7 @@ body {
 }
 
 .project-button:hover {
-  background-color: #ca387e;
+  background-color: var(--link-color);
   color: #ffff;
   transition: ease-in-out 2s;
 }
