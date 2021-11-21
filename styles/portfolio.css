@@ -13,15 +13,19 @@ body {
   line-height: 1.5;
 }
 
-footer a {
+footer {
   background-color: #30113e;
   color: #ffff;
   display: flex;
-  font-family: var(--h1-font-family);
-  font-size: 25px;
+  font-family: var(--main-font-family);
+  font-size: 15px;
   justify-content: center;
-  letter-spacing: 2px;
-  padding: 30px 0;
+  letter-spacing: 1px;
+  padding: 15px 0 5px 0;
+}
+
+footer a {
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -180,6 +184,9 @@ footer a:hover {
 }
 
 @media (max-width: 1024px) {
+  footer {
+    font-size: 10px;
+  }
   .about-description {
     padding: 10px;
   }
