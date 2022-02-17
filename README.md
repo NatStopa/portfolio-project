@@ -14,6 +14,7 @@
 * HTML5
 * CSS3
 * Bootstrap v5.1
+* Grid
  
 ## Screenshots
 ![Example screenshot](./photos/screenshot.png)
