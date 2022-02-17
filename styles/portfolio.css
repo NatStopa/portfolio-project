@@ -10,6 +10,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
@@ -185,13 +187,13 @@ footer a:hover {
 }
 
 .project-description {
-  padding: 15px 45px 0 0;
+  padding: 15px;
 }
 
 .work-container {
   background-color: var(--primary-background-color);
   margin: 60px 0 0 0;
-  padding: 40px 0;
+  padding: 25px 10px;
 }
 
 .work-section hr {
@@ -202,10 +204,9 @@ footer a:hover {
 .work-section img {
   display: block;
   margin: 15px auto;
-  max-width: 70%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 990px) {
   footer {
     font-size: 10px;
   }
@@ -214,8 +215,12 @@ footer a:hover {
   }
   .about-section,
   .work-container {
-    padding: 30px 15px;
+    padding: 25px;
     text-align: center;
+  }
+  .about-section p,
+  .work-section p {
+    font-size: 18px;
   }
   .about-section h1,
   .work-section h1,
